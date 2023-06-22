@@ -121,6 +121,7 @@ Or useful for having multiple distinct Dolphin setups for testing/development/TA
 5. `cp -r ../Data/Sys/ Binaries/`
 6. `touch Binaries/portable.txt`
 
+<<<<<<< HEAD
 ## Building for Android
 
 These instructions assume familiarity with Android development. If you do not have an
@@ -136,6 +137,9 @@ If using Android Studio, import the Gradle project located in `./Source/Android`
 Android apps are compiled using a build system called Gradle. Dolphin's native component,
 however, is compiled using CMake. The Gradle script will attempt to run a CMake build
 automatically while building the Java code.
+=======
+note: If you use Wayland and rendering doesn't work, run `QT_QPA_PLATFORM=xcb ./dolphin-emu` when starting Dolphin.
+>>>>>>> 4c7784958b (Updated Readme.md)
 
 ## Uninstalling
 
