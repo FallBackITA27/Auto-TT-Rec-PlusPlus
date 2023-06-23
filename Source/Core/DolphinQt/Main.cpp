@@ -152,9 +152,9 @@ int main(int argc, char* argv[])
     // https://doc.qt.io/qt-6/embedded-linux.html
   #endif
 
-  QCoreApplication::setOrganizationName(QStringLiteral("Dolphin Emulator"));
-  QCoreApplication::setOrganizationDomain(QStringLiteral("dolphin-emu.org"));
-  QCoreApplication::setApplicationName(QStringLiteral("dolphin-emu"));
+  QCoreApplication::setOrganizationName(QStringLiteral("Auto-TT-Rec++"));
+  QCoreApplication::setOrganizationDomain(QStringLiteral("github.com/FallBackITA27/Auto-TT-Rec-PlusPlus"));
+  QCoreApplication::setApplicationName(QStringLiteral("auto-tt-rec-pp"));
 
   // QApplication will parse arguments and remove any it recognizes as targeting Qt
   QApplication app(argc, argv);
